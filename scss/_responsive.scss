@@ -1,0 +1,651 @@
+
+/* TABLET */
+
+@media screen and (max-width:768px){    
+    
+    header{
+
+        nav{
+
+            ul{
+            
+                .nav-item{
+                    font-size: medium;
+                }
+            }
+
+            .d-flex{
+
+                font-size: medium;
+            }
+        }
+    }
+
+    main{
+
+        .mainWhat{
+            display: none;
+        }
+
+        .what{
+            position: fixed;
+            top: 30px;
+            right: 60px;
+            z-index: 10;
+        }   
+
+        a{
+            .what_img{
+
+                @include sizes(60px,60px);
+            }
+        }
+    
+        .h3{
+            font-size: medium;
+        }
+
+        .titulos{
+            font-size: medium;
+        }
+
+        .carousel { 
+    
+            .carousel-item{
+    
+                @include sizes(50%,auto);  
+                margin: auto;
+                padding-bottom: 50px;
+            }
+        } 
+
+        .parrafo_color{
+            font-size: medium;
+        }
+
+        .sec_index{
+
+            .card{
+
+                width: 15rem;
+
+                .foto_p{
+
+                    @include sizes(15rem,20rem);
+                }
+    
+                .card-body{
+    
+                    font-size: medium;
+                    width: 15rem;
+    
+                    .card-title{
+                        font-size: medium;
+                    }
+
+                    .btn{
+    
+                        font-size: small;
+                    }   
+                }
+            }
+
+            .card_index{
+
+                transition: all ;
+                &:hover{
+    
+                    animation-iteration-count: inherit;
+                }
+            }
+        }
+
+        .tabla{
+
+            h1{
+
+                font-size: large;
+            }
+
+            table {
+
+                font-size: medium;
+            }
+        }
+
+        .divTalles{
+
+            .h2talles{
+
+                font-size: medium;
+            }
+
+            .parrafo_talles{
+
+                font-size: medium;
+            }
+        }
+
+        .main_div_nos{
+
+            h2{
+                font-size: medium;
+            }
+
+            .nos_parrafo1{
+        
+                font-size: medium;
+            }
+            
+            .nos_parrafo2{
+
+                font-size: medium;
+            }
+
+            .nos_div_video{
+
+                .nos_video{
+
+                    @include sizes(40vw,50vh);
+                    padding: 5% 0;
+                }
+            }
+
+            .nos_iframe{
+
+                display: none;
+            }
+        }
+
+        .divcontact{
+            
+            .h2Contact{
+
+                font-size: medium;
+            }
+
+            .h3Contact{
+
+                font-size: medium;
+                text-align: center;
+            }
+        }
+
+        .form{
+            
+            font-size: medium;
+
+            ::-webkit-input-placeholder{
+                font-size: medium;
+            }
+            :-moz-placeholder{ /* Firefox 18- */
+                font-size: medium;
+            }
+            ::-moz-placeholder{ /* Firefox 19+ */
+                font-size: medium;
+            }
+            :-ms-input-placeholder{
+               font-size: medium;
+            }
+
+            input{
+                font-size: medium;
+            }
+        }
+            
+        .h2Produc{
+
+            font-size: large;
+        }
+
+        .produc_sec{
+
+            .card_p{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .foto_p{
+
+                    @include sizes(15rem,20rem);
+                } 
+            
+                .card-body{
+
+                    font-size: medium;
+                    width: 15rem;
+
+                    .card-title{
+
+                        font-size: medium;
+                    }
+
+                    .btn{
+
+                        font-size: small;
+                    }
+
+                    .btn-success{
+                
+                        transition: none;
+                    }
+
+                    .btn-success:hover{
+
+                        transform: none;
+                    }
+                }
+            }
+        }
+
+        .produc_pago{
+
+            .imgPago{
+
+                display: none;
+            }
+
+            .imgPago2{
+
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+            }
+
+            .img2{
+
+                @include sizes(20rem,20rem);
+            }
+        }
+    } 
+
+    footer{
+
+        h4{
+            font-size: medium;
+        }
+
+        p{
+            font-size: medium;
+        }
+
+        .condiciones{
+
+            animation-iteration-count: inherit;
+            padding-right: 3rem;
+
+            .iconos__text {
+
+                animation-iteration-count: inherit;
+
+                p{
+
+                    font-size: medium;
+                }
+            }
+        }
+    }
+}
+
+/* MOBIL */
+            
+@media screen and (max-width:425px){
+
+    header{
+
+        .lg{
+            background-color: black;
+        }
+        .logo_pag{
+
+            @include sizes(90vw,auto);
+        }
+
+        .header_div_video{
+            display: none;
+        }
+
+        nav{
+
+            a{
+                .logo_nav{
+
+                    @include sizes(40px,30px);
+                }
+            }
+
+            ul{
+                .nav-item{
+                    font-size: small;
+                }
+            }
+
+            .d-flex{
+                font-size: small;
+            }
+        }
+    }
+
+    .main_index{
+
+        background-image: url(../Imagenes/fotos/mobile.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;   
+    }
+    
+    main{
+
+        
+        a{
+            .what_img{
+
+                @include sizes(30px,30px);
+            }
+        }
+
+        .h3{
+            font-size: small;
+        }
+
+        .carousel { 
+    
+            .carousel-item{
+    
+                @include sizes(60%,auto);  
+                margin: auto;
+                padding-bottom: 50px;
+            }
+        } 
+        
+        .titulos{
+            font-size: small;
+        }
+
+        .parrafo_color{
+            font-size: small;
+        }
+            
+        .sec_index{
+
+                .card{
+
+                    width: 15rem;
+
+                    .foto_p{
+
+                        height: 18rem;
+                    }
+    
+                    .card-body{
+    
+                        font-size: small;
+                        width: 15rem;
+    
+                        .card-title{
+    
+                            font-size: small;
+                        }
+        
+                        .btn{
+    
+                        font-size: small;
+                        }
+                    } 
+                }
+                
+                .card_index{
+                    &:hover{
+                        transform: inherit;
+                    }
+                }   
+        }
+
+        .tabla{
+
+            h1{
+                font-size: medium;
+            }
+
+            table {
+
+            font-size: small;
+            }
+        }
+
+        .divTalles{
+
+            .h2talles{
+
+                font-size: small;
+            }
+
+            .parrafo_talles{
+
+                font-size: small;
+            }
+        }
+
+        .main_div_nos{
+
+            h2{
+
+                font-size: small;
+            }
+
+            .nos_parrafo1{
+
+                font-size: small;
+            }
+
+            .nos_parrafo2{
+
+                font-size: small;
+            }
+            
+            .nos_div_video{
+
+                .nos_video{
+
+                    @include sizes(40vw,50vh);
+                    padding: 5% 0;
+                }
+            }
+
+            .nos_iframe{
+
+                display: none;
+            }
+        }
+
+        .h2Contact{
+
+            font-size: small;
+        }
+
+        .h3Contact{
+
+            font-size: small;
+            text-align: center;
+        }
+
+        .form{
+
+            font-size: small;
+
+            ::-webkit-input-placeholder{
+
+                font-size: small;
+            }
+
+            :-moz-placeholder{ /* Firefox 18- */
+
+                font-size: small;
+            }
+
+            ::-moz-placeholder{ /* Firefox 19+ */
+
+                font-size: small;
+            }
+
+            :-ms-input-placeholder{
+                font-size: small;
+            }
+
+            input{
+                font-size: small;
+            }
+        }
+
+        .h2Produc{
+
+            font-size: medium;
+            padding: 20px;
+        }
+
+        .produc_sec{
+
+            .card_p{
+
+                width: 15rem;
+
+                .foto_p{
+
+                    height: 18rem;
+                }
+    
+                .card-body{
+    
+                    font-size: small;
+                    width: 15rem;
+    
+                    .card-title{
+    
+                        font-size: small;
+                    }
+    
+                    .btn{
+    
+                            font-size: small;
+                        }
+
+                    .btn-success:hover{
+
+                            transform: inherit;
+                        }
+                } 
+            }
+    }
+
+        .produc_pago{
+
+            .imgPago{
+
+                display: none;       
+            }
+
+            .imgPago2{
+
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+            }
+        }
+    }
+
+    footer{
+
+            h4{
+                font-size: small;
+            }
+            
+            p{
+            font-size: small;
+            }
+
+            .condiciones{
+
+                flex-direction: column;
+                margin-bottom: 1rem;
+                padding-right: 0rem;
+
+                .iconos__text {
+
+                    animation-iteration-count: inherit;
+    
+                    p{
+    
+                        font-size: small;
+                    }
+                }
+
+                .fa-2x {
+
+                    font-size: 1,5em;
+                }
+            }
+    }
+}
+
+@media screen and (min-width:426px){
+
+    header{
+
+        .lg{
+            display: none;
+        }
+    }
+}
+
+/* DESKTOP */
+    
+@media screen and (min-width:769px){
+     
+    main{
+
+        .what{
+
+            display: none;
+        }
+
+        .maindiv_index2{
+
+            display: none;    
+        }
+
+        .main_div_nos{
+
+            .nos_iframe2{
+
+                display: none;
+            }
+        }
+
+        .produc_pago{
+
+            .imgPago2{
+
+                display: none;
+            }
+        }
+    }   
+}           
+
+          
+            
+        
+            
+            
+            
+            
+            
+            
+            
+    
+           
+          

@@ -1,0 +1,444 @@
+
+.main_index {
+
+    font-family: $letra;
+    padding-bottom: 20px;
+    background-image: url(../Imagenes/fotos/12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainTalles{
+
+    background-color: $colorFondo;
+    color: $colorLetra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 0;
+    font-family: $letra;
+    font-size: 20px;
+}
+.mainNos{
+
+    background-color: $colorFondo;
+    color: $colorLetra;
+    font-size: 20px;
+    font-family: $letra;
+    width: 100vw;
+    padding-top: 50px;
+}
+.mainContact{
+
+    background-color: $colorFondo;
+    font-family: $letra;
+    font-size: 20px;
+    color: $colorLetra;
+    width: 100vw;
+}
+.mainProduc{
+
+    background-color: $colorFondo;
+    color: $colorLetra;
+    font-size: 20px;
+    font-family: $letra;
+    padding:  50px 0;
+    width: 100vw;
+}
+
+main{
+
+    .mainWhat{
+
+        background-color: $colorFondo;
+        font-family: $letra;
+        color: $colorLetra;
+        position: fixed;
+        z-index: 400;
+        top: 50px;       
+        right: 70px;
+        padding: 10px;
+        text-decoration: none;
+        border:3px solid whitesmoke;
+    }
+
+    a{
+
+        .main_a_img{
+
+            @include sizes(40px,40px);
+        }
+    }
+
+    .titulos{
+
+        text-align: center;
+    }
+
+    .h3{
+
+        margin: 30px;
+        padding: 30px;
+        font-family: $letra;
+        font-size: x-large;
+        font-weight: 600;
+        border: $borde;
+        background-color: $colorFondo;
+        color: $colorLetra;
+    }
+
+    .h3_version{
+
+        color: #C6FFDD;
+    }
+
+    .carousel { 
+
+        .carousel-inner{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .carousel-item{
+
+            @include sizes(40%,auto);  
+            margin: auto;
+            padding-bottom: 50px;
+        }
+    }   
+
+    .parrafo_color{ 
+
+        color: $colorLetra;
+        background-color: $colorFondo;
+        border: $borde;
+        margin: 30px;
+        padding: 30px;
+        font-family: $letra;
+        font-size: x-large;
+        text-align: center;
+    
+        .palabras{
+            
+            color: #C6FFDD;
+        }
+    }
+
+    .sec_index{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: stretch;
+        padding: 2rem;
+
+        .card{
+
+            margin: 2rem;
+            width: 25rem;
+
+            .foto_p{
+
+                height: 30rem;
+           }
+           
+           .card-body{
+   
+               text-align: center;
+               border: 2px dashed whitesmoke;
+               background-color: $colorFondo;
+               color: $colorLetra;
+   
+               .btn{
+   
+                   border: black
+               }
+           }
+        }
+
+        .card_index{
+
+            transition: all ;
+            &:hover{
+
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+
+    .tabla{
+        
+        h1{
+
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        table {
+
+            color: $colorLetra;
+            border: whitesmoke;
+            animation-name: fondoTabla;
+            animation-duration: 7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes fondoTabla {
+
+            0% {
+                background: rgb(131,58,180);
+                background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            }
+            40% {
+                background: rgb(34,193,195);
+                background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+            }
+            60%{
+                background: rgb(4,212,254);
+                background: radial-gradient(circle, rgba(4,212,254,0.5200674019607843) 35%, rgba(120,238,11,0.5452774859943977) 99%);
+            }
+            100%{ 
+                background: rgb(238,174,202);
+                background: radial-gradient(circle, rgba(238,174,202,1) 39%, rgba(148,187,233,1) 100%);
+            }
+        }
+    }
+
+    .divTalles{
+
+        padding-top: 60px;
+    
+        .h2talles{
+            text-align: center;
+            padding: 20px 10px;
+            margin-bottom: 40px;
+            border: $borde;
+        }
+        .parrafo_talles{ 
+
+            color: $colorLetra;
+            background-color: $colorFondo;
+            border: $borde;
+            padding: 20px;
+            font-family: $letra;
+            font-size: x-large;
+            text-align:justify;
+        }
+    }
+
+    .main_div_nos{
+
+        h2{
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        .nos_parrafo1{
+
+            text-align: justify;
+            padding: 5%;
+
+            .palabras{
+        
+                color: #C6FFDD;
+            }
+        }
+
+        .nos_div_video{
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            .nos_video{
+
+                @include sizes(30vw,70vh);
+                padding: 5% 0;
+            }
+        }
+
+        .nos_parrafo2 {
+            
+            text-align: justify;
+            padding: 5%;
+
+            .palabras{
+        
+                color: #C6FFDD;
+            }
+        }
+
+        .nos_iframe {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 5%;
+        }
+
+        .nos_iframe2 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 5%;
+        }
+
+        .animate__animated{
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+    }
+
+    .divcontact{
+
+        .h2Contact{
+
+            margin-top: 4rem;
+            padding: 2rem;
+            font-family: $letra;
+            font-size: x-large;
+            font-weight: 600;
+            border: $borde;
+            background-color: $colorFondo;
+            color:$colorLetra;
+            text-align: center;
+        }
+
+        .h3Contact{
+
+            color: $colorLetra;
+            font-family: $letra;
+            padding: 3rem;
+            text-align: center;
+        }
+    }
+
+    .form{
+
+        padding: 3rem;
+        position: relative;
+
+        .icon {
+
+            font-size: 20px;
+            color: red;
+        } 
+
+        input{
+            font-size: large;
+        }
+    }
+
+    .h2Produc{
+
+        margin: 0 20px;
+        padding: 30px 10px;
+        font-family: $letra;
+        font-size: x-large;
+        text-align: center;
+        border: $borde;
+        background-color: $colorFondo;
+        color: $colorLetra;
+    }
+
+    .seccionesP{
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+    }
+    .produc_sec{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: stretch;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        .card_p{
+
+            padding:2rem 0;
+
+            .foto_p{
+
+                height: 30rem;
+            }
+
+            .card-body{
+
+                text-align: center;
+                border: 2px dashed whitesmoke;
+                background-color: $colorFondo;
+                color: $colorLetra;
+            }
+
+            .btn-success{
+
+                transition: all 5s;
+            }
+
+            .btn-success:hover{
+
+                transform: scale(2,2);
+            }
+        }
+    }
+
+    .produc_list{
+
+        .div2{
+            padding: 2rem;
+        }
+    
+        span{
+    
+            font-size: 20px;
+            color: red;
+        } 
+    
+        input{
+            font-size: large;
+        } 
+    }
+    
+    .produc_pago{
+
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: stretch;
+        width: 100vw;
+
+        .imgPago{   
+
+            display: flex; 
+            justify-content: center;   
+            padding: 5% 5%;
+            width: 90vw;
+        }
+    }
+    
+}
+
+    
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+     

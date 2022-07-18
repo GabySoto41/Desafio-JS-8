@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/logos/logoico.ico" type="image/x-icon"/>
+       
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <!-- ESTILOS CSS -->
+    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- SEO -->
+
+    <meta name="keywords" content= " moda, ropa, buzos, remerones, fashion, tienda, compra online, argentina, cuotas, sin interés ">
+    <title> Tienda Online de Sin Generación </title> 
+    <meta name="description" content="Comprá productos de Indumentaria Exclusiva por internet. Tenemos buzos, remeras y más. Hacé tu pedido, pagalo online y recibilo donde quieras">
+
+  
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header class="row">
+
+            <div class="col-12 header_div_video">
+                <video controls src="multimedia/logovideo.mp4" type="video/mp4" class="header_video"></video>
+            </div>
+
+            <div class="col-12 lg paginas">
+                <img class="logo_pag" src="Imagenes/logos/LOGO.png" alt="Logo Sin Generación">
+            </div>
+
+            <nav class=" col-12 navbar navbar-expand-xl navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand shake-slow" href="index.html">
+                        <img src="Imagenes/logos/logoico.ico" alt="logo" class="logo_nav">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active shake-slow" aria-current="page" href="index.html"> HOME </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle shake-slow" href="paginas/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="paginas/productos.html"> TODOS </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="paginas/productos.html#buzos"> Buzos </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="paginas/productos.html#remeras"> Remeras </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="paginas/productos.html#joggins"> Joggins </a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="paginas/productos.html#otros"> Otros </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shake-slow" href="paginas/Talles.html"> TALLES </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shake-slow" href="paginas/nosotros.html"> NOSOTROS </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shake-slow" href="paginas/contacto.html"> CONTACTO </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit" onclick="filtrar()"> Búsqueda </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+                  
+        </header>
+
+    <!-- cierre de fila logo + nav -->
+
+    <!-- fila de información de mi sitio -->
+
+        <main class="main_index row">
+
+            <div class="col-12">
+
+                <!-- Desktop-->
+
+                <a class="mainWhat" href="https://api.whatsapp.com/send?phone=+5492614722767" target="_blank"> Envíanos un mensaje de WhatsApp <img class="main_a_img" src="Imagenes/logos/logowhat.png" alt=" WhatsApp "></a>
+    
+                 <!-- Tablet y Mobil-->
+                 
+                <a class="what" href="https://api.whatsapp.com/send?phone=+5492614722767" target="_blank"><img class="what_img" src="Imagenes/logos/logowhat.png" alt=" WhatsApp "></a>
+    
+                <h3 class="titulos h3"> 🔥 Nuevas Temporadas y Sales 🔥 </h3>
+                
+            </div>
+
+            <div class="col-12">
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" style="background-color: red;" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" style="background-color: red;" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" style="background-color: red;" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Imagenes/fotos/8.jpg" class="d-block w-100" alt="foto adelanto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagenes/fotos/9.jpg" class="d-block w-100" alt="foto adelanto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagenes/fotos/11.jpg" class="d-block w-100" alt="foto adelanto">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black"></span>
+                      <span class="visually-hidden"> Anterior </span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+                      <span class="visually-hidden"> Siguiente </span>
+                    </button>
+                  </div>
+            </div>
+
+            <div class="col-12 parrafo_index">
+                <p class="parrafo_color"> <span class="palabras"><strong> HOLA! </strong></span> <br> Queremos decirte que nos importa mucho tu experiencia con nosotros. Por eso te recordamos que estás <br> comprando un producto que se confecciona especialmente para vos. En <span class="palabras"> Sin Generación </span> no tenemos stock<br> permanente. Todos nuestros procesos son artesanales y cuidamos cada detalle para ofrecerte un producto <br> <span class="palabras"> único, cuidado y hermoso. </span></p>
+                <h3 class="titulos h3"> ❤️ Nuestros Productos Preferidos ❤️ </h3>
+            </div>
+
+            <section class="sec_index col-12">
+
+
+                    <div class="card card_index animate__animated animate__pulse">
+                        <img src="Imagenes/fotos/2.jpg" class="card-img-top img-fluid foto_p" alt="foto buzo">
+                        <div class="card-body">
+                          <h5 class="card-title"> buzo ferrari </h5>
+                          <p class="card-text"> $ 5.000 </p>
+                          <a class="btn btn-primary btn1"> VER PRECIOS </a>
+                        </div>
+                    </div>
+                    <div class="card card_index animate__animated animate__pulse">
+                        <img src="Imagenes/fotos/3.jpg" class="card-img-top img-fluid foto_p" alt="foto buzo">
+                        <div class="card-body">
+                          <h5 class="card-title"> buzo mercedes </h5>
+                          <p class="card-text"> $ 5.000 </p>
+                          <a class="btn btn-primary btn2"> VER PRECIOS </a>
+                        </div>
+                    </div>
+                    <div class="card card_index animate__animated animate__pulse">
+                        <img src="Imagenes/fotos/16.JPG" class="card-img-top img-fluid foto_p" alt="foto buzo">
+                        <div class="card-body">
+                          <h5 class="card-title"> buzo red bull </h5>
+                          <p class="card-text"> $ 5.000 </p>
+                          <a class="btn btn-primary btn3"> VER PRECIOS </a>
+                        </div>
+                    </div>
+                    <div class="card card_index animate__animated animate__pulse">
+                        <img src="Imagenes/fotos/13.jpg" class="card-img-top img-fluid foto_p" alt="foto remera">
+                        <div class="card-body">
+                          <h5 class="card-title"> remera coraje </h5>
+                          <p class="card-text"> $ 1.500 </p>
+                          <a class="btn btn-primary btn4"> VER PRECIOS </a>
+                        </div>
+                    </div>
+
+            </section>
+
+            
+        
+        </main>
+
+        <!-- cierre de fila info de mi sitio -->
+    
+        <!-- pie de pagina -->
+
+        <footer class="row">
+
+        <div class="container_fluid">
+            <div class="col-12 condiciones">
+                <div class="iconos__text animate__animated animate__flash animate__slower">
+                    <i class="bi bi-truck fa-2x "></i>
+                    <p>ENVIOS GRATIS <br> En compras mayores a $ 5.000</p>
+                </div>
+
+                <div class="iconos__text animate__animated animate__flash animate__slower">
+                    <i class="bi bi-credit-card fa-2x"></i>
+                    <p>HASTA 6 CUOTAS SIN INTERES <br> Todas las tarjetas de crédito</p>
+                </div>
+
+                <div class="iconos__text animate__animated animate__flash animate__slower">
+                    <i class="bi bi-lock fa-2x"></i>
+                    <p>SITIO SEGURO <br> Protegemos tus datos</p>
+                </div>
+            </div>
+        </div>
+            
+            <div class="col-12 redes_sociales">
+                <h4> Redes Sociales </h4>
+                <ul>
+                    <li><a href="https://instagram.com/singeneracion?utm_medium=copy_link" target="_blank"><img src="Imagenes/logos/instagramicon.png" alt=" Instagram " class="redes"></a></li>
+                    <li><a href="https://www.facebook.com/singeneracion/" target="_blank"><img src="Imagenes/logos/facebookicon.png" alt="Facebook" class="redes"></a></li>
+                    <li><a href="mailto:singeneracionn@gmail.com" target="_blank"><img src="Imagenes/logos/emailicon.png" alt=" email " class="redes"></a></li>
+                </ul>
+                <p> Este sitio es propiedad de Sin Generación </p>
+            </div>
+
+        </footer>
+
+
+    </div>
+
+    <!-- BOOTSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="js/desafio4.js"></script>
+    
+</body>
+
+</html>

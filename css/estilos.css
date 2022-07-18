@@ -1,0 +1,716 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    margin: 0;
+}
+
+/* HEADER */
+
+        /* LOGO INDEX */
+
+.header_div_video{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.header_video{
+    height: 50vh;
+    width: 99vw;
+}
+        /* LOGO PAGINAS */
+
+.header_pag{
+    background-color: black;
+}       
+    
+.logo_pag{
+    height: auto;
+    width: 90vw;
+}
+
+        /* NAV EN COMUN */
+
+.logo_nav{
+    width: 80px;
+    height: 60px;
+}
+.navbar{
+    border: 2px solid whitesmoke;
+}
+.navbar-nav{
+    padding:0 10px;
+}
+.nav-item{
+    font-family: "Oswald";
+    font-size: large;
+    padding: 10px;
+    margin:0 40px;
+}
+.d-flex{
+    font-family: "Oswald";
+    font-size: large;
+}
+
+/* MAIN */
+
+        /* INDEX */
+
+.main_index {
+    font-family: "Oswald";
+    padding-bottom: 20px;
+    color: black;
+    background-image: url(../Imagenes/fotos/12.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainWhat{
+    background-color:black;
+    font-family: "Oswald";
+    color: white;
+    position: fixed;
+    z-index: 400;
+    top: 50px;       
+    right: 70px;
+    padding: 10px;
+    text-decoration: none;
+    border:3px solid whitesmoke;
+}
+.main_a_img{
+    height: 40px; 
+    width: 40px;
+}
+.titulos{
+   text-align: center;
+}
+.h3{
+    margin: 30px;
+    padding: 30px;
+    font-family: "Oswald";
+    font-size: x-large;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item{
+    width: 40%;
+    height: auto;  
+    margin: auto;
+    padding-bottom: 50px;
+}
+.parrafo_color{ 
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    margin: 30px;
+    padding: 30px;
+    font-family: "Oswald";
+    font-size: x-large;
+    text-align:justify;
+}
+
+.sec_index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding: 2rem;
+
+}
+.card{
+    margin: 2rem;
+    width: 25rem;
+}
+.card_index{
+    transition: all 3s;
+}
+.card_index:hover{
+    transform:rotate(360deg)
+}
+
+        /* TALLES */
+
+.mainTalles{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 0;
+    background-color: black;
+    font-family: "Oswald";
+    font-size: 20px;
+}
+.mainTalles h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+table {
+    color: whitesmoke;
+    border: whitesmoke;
+    animation-name: fondoTabla;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fondoTabla {
+    0% {
+        background: rgb(131,58,180);
+        background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    40% {
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
+    60%{
+        background: rgb(4,212,254);
+        background: radial-gradient(circle, rgba(4,212,254,0.5200674019607843) 35%, rgba(120,238,11,0.5452774859943977) 99%);
+    }
+    100%{ 
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 39%, rgba(148,187,233,1) 100%);
+    }
+}
+.divTalles{
+    padding-top: 60px;
+}
+.h2talles{
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    border: 1px solid whitesmoke;
+}
+.parrafo_talles{ 
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    font-family: "Oswald";
+    font-size: x-large;
+    text-align:justify;
+}
+
+        /* NOSOTROS */
+
+.mainNos{
+        background-color: black;
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: "Oswald";
+        width: 100vw;
+        padding-top: 50px;
+}
+.main_div_nos h2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.nos_parrafo1{
+        text-align: justify;
+        padding: 5%;
+}
+.nos_div_video{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.nos_video{
+        height: 70vh;
+        width: 30vw;
+        padding: 5% 0;
+}
+.nos_parrafo2{
+        text-align: justify;
+        padding: 5%;
+}
+.nos_iframe{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 5%;
+}
+.nos_iframe2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 5%;
+}
+.animate__animated{
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+        /* CONTACTOS */
+
+.mainContact{
+    background-color: black;
+    font-family: "Oswald";
+    font-size: 20px;
+    color: whitesmoke;
+    width: 100vw;
+}
+.h2Contact{
+    margin-top: 4rem;
+    padding: 2rem;
+    font-family: "Oswald";
+    font-size: x-large;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.h3Contact {
+    color: whitesmoke;
+    font-family: "Oswald";
+    padding: 3rem;
+    text-align: center;
+}
+.form{
+    padding: 3rem;
+    position: relative;
+}
+.icon {
+    font-size: 20px;
+    color: red;
+} 
+
+        /* PRODUCTOS */
+
+.mainProduc{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Oswald";
+    padding:  50px 0;
+    width: 100vw;
+}
+.h2Produc{
+    margin: 0 20px;
+    padding: 30px 10px;
+    font-family: "Oswald";
+    font-size: x-large;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+}
+.produc_sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.seccionesP{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
+}
+.card_p{
+    padding:2rem 0;
+}
+.foto_p{
+    height: 30rem;
+}
+.card-body{
+    text-align: center;
+    border: 2px dashed whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-success{
+    transition: all 5s;
+}
+.btn-success:hover{
+    transform: scale(2,2);
+}
+.produc_pago{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100vw;
+}
+.imgPago{   
+    display: flex; 
+    justify-content: center;   
+    padding: 5% 5%;
+    width: 90vw;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: "Oswald";
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+footer h4{
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px;
+}
+footer li{
+    display: inline-block;
+}
+.redes {
+    height: 35px;
+    width: 34px;
+    background-color: black;
+}
+
+/* RESPONSIVE */
+
+        /* TABLET */ 
+
+@media screen and (max-width:768px){
+
+.what{
+    position: fixed;
+    top: 30px;
+    right: 60px;
+}
+.mainWhat{
+    display: none;
+}
+.what_img{
+    height: 60px;
+    width: 60px;
+}
+.logo_nav{
+    width: 60px;
+    height: 50px;
+}
+
+            /* INDEX */
+
+.nav-item{
+    font-size: medium;
+}
+.d-flex{
+    font-size: medium;
+}
+.h3{
+    font-size: medium;
+}.titulos{
+    font-size: medium;
+}
+.parrafo_color
+{
+    font-size: medium;
+}
+.card{
+    width: 15rem;
+
+}
+.card-body{
+    font-size: medium;
+    width: 15rem;
+}
+.foto_p{
+    width: 15rem;
+    height: 20rem;
+}
+.card-title{
+    font-size: medium;
+}
+.btn{
+    font-size: medium;
+}
+
+            /* TALLES */
+
+.mainTalles h1{
+    font-size: large;
+}
+table {
+    font-size: medium;
+}
+.h2talles{
+    font-size: medium;
+}
+.parrafo_talles{
+    font-size: medium;
+}
+
+            /* NOSOTROS */
+
+.main_div_nos h2{
+    font-size: medium;
+}
+.nos_parrafo1{
+    font-size: medium;}
+.nos_parrafo2{
+    font-size: medium;
+}
+.nos_video{
+    height: 50vh;
+    width: 40vw;
+    padding: 5% 0;
+}
+.nos_iframe{
+    display: none;
+}
+
+            /* CONTACTOS */
+
+.h2Contact{
+    font-size: medium;
+}
+.h3Contact{
+    font-size: medium;
+    text-align: center;
+}
+.form{
+    font-size: medium;
+}
+::-webkit-input-placeholder{
+    font-size: medium;
+}
+:-moz-placeholder{ /* Firefox 18- */
+    font-size: medium;
+}
+::-moz-placeholder{ /* Firefox 19+ */
+    font-size: medium;
+}
+:-ms-input-placeholder{
+   font-size: medium;
+}
+
+            /* PRODUCTOS */
+
+.h2Produc{
+    font-size: large;
+}
+.imgPago{
+    display: none;
+}
+.imgPago2{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.img2{
+    width: 20rem;
+    height: 20rem;
+}
+.card_p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+            /* FOOTER */
+
+footer h4{
+    font-size: medium;
+}
+footer p{
+    font-size: medium;
+}
+
+}
+ 
+        /* MOBIL */
+
+@media screen and (max-width:425px){
+
+.lg{
+    width: 100vw;
+    background-color: black;
+}
+.header_div_video{
+    display: none;
+}
+.what_img{
+    height: 30px;
+    width: 30px;
+}
+.logo_nav{
+    width: 40px;
+    height: 30px;
+}
+
+            /* INDEX */
+
+.nav-item{
+    font-size: small;
+}
+.d-flex{
+    font-size: small;
+}
+.h3{
+    font-size: small;
+}.titulos{
+    font-size: small;
+}
+.parrafo_color
+{
+    font-size: small;
+}
+.card{
+    width: 15rem;
+
+}
+.card-body{
+    font-size: small;
+    width: 15rem;
+}
+.card-title{
+    font-size: small;
+}
+.foto_p{
+    width: 15rem;
+    height: 18rem;
+}
+.btn{
+    font-size: small;
+}
+
+            /* TALLES */
+
+.mainTalles h1{
+    font-size: medium;
+}
+table {
+    font-size: small;
+}
+.h2talles{
+    font-size: small;
+}
+.parrafo_talles{
+    font-size: small;
+}
+
+            /* NOSOTROS */
+
+.main_div_nos h2{
+    font-size: small;
+}
+.nos_parrafo1{
+    font-size: small;
+}
+.nos_parrafo2{
+    font-size: small;
+}
+.nos_video{
+    height: 50vh;
+    width: 40vw;
+    padding: 5% 0;
+}
+.nos_iframe{
+    display: none;
+}
+
+            /* CONTACTOS */
+
+.h2Contact{
+    font-size: small;
+}
+.h3Contact{
+        font-size: small;
+        text-align: center;
+}
+.form-label{
+    font-size: small;
+}
+::-webkit-input-placeholder{
+    font-size: small;
+}
+:-moz-placeholder{ /* Firefox 18- */
+    font-size: small;
+}
+::-moz-placeholder{ /* Firefox 19+ */
+    font-size: small;
+}
+:-ms-input-placeholder{
+   font-size: small;
+}
+
+            /* PRODUCTOS */
+
+.h2Produc{
+    font-size: medium;
+    padding: 20px;
+}
+.imgProduc{
+    height: 70%;
+    width: 70%;
+}
+.imgPago{
+    display: none;       
+}
+.imgPago2{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+            /* FOOTER */
+
+footer h4{
+    font-size: small;
+}
+footer p{
+    font-size: small;
+}
+
+}
+
+@media screen and (min-width:426px){
+
+.lg{
+    display: none;
+}
+}
+        /* DESKTOP */
+
+@media screen and (min-width:769px){
+    
+.what{
+    display: none;
+}
+.maindiv_index2{
+    display: none;    
+}
+.nos_iframe2{
+    display: none;
+}
+.imgPago2{
+    display: none;
+}
+
+}

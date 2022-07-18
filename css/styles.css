@@ -1,0 +1,659 @@
+.btn1 {
+  background-color: #ffe259; }
+
+.btn2 {
+  background-color: #ffa751; }
+
+.btn3 {
+  background-color: #f7797d; }
+
+.btn4 {
+  background-color: #f12711; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  margin: 0; }
+
+header {
+  background-color: black; }
+  header .header_div_video {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: black; }
+  header .header_video {
+    width: 99vw;
+    height: 50vh; }
+  header .paginas {
+    display: flex;
+    justify-content: center; }
+  header .logo_pag {
+    width: 90vw;
+    height: auto; }
+  header .navbar {
+    border: 2px groove whitesmoke; }
+    header .navbar form .btn-outline-success {
+      color: #C6FFDD; }
+  header nav a .logo_nav {
+    width: 80px;
+    height: 60px; }
+  header nav .navbar-nav {
+    padding: 0 10px; }
+  header nav ul .nav-item {
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 0 40px; }
+  header nav .d-flex {
+    font-family: "Oswald", sans-serif;
+    font-size: large; }
+
+.main_index {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 20px;
+  background-image: url(../Imagenes/fotos/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mainTalles {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px; }
+
+.mainNos {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  width: 100vw;
+  padding-top: 50px; }
+
+.mainContact {
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  width: 100vw; }
+
+.mainProduc {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  padding: 50px 0;
+  width: 100vw; }
+
+main .mainWhat {
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  color: whitesmoke;
+  position: fixed;
+  z-index: 400;
+  top: 50px;
+  right: 70px;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid whitesmoke; }
+
+main a .main_a_img {
+  width: 40px;
+  height: 40px; }
+
+main .titulos {
+  text-align: center; }
+
+main .h3 {
+  margin: 30px;
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  border: 2px groove whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
+
+main .h3_version {
+  color: #C6FFDD; }
+
+main .carousel .carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .carousel .carousel-item {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 50px; }
+
+main .parrafo_color {
+  color: whitesmoke;
+  background-color: black;
+  border: 2px groove whitesmoke;
+  margin: 30px;
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  text-align: center; }
+  main .parrafo_color .palabras {
+    color: #C6FFDD; }
+
+main .sec_index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  padding: 2rem; }
+  main .sec_index .card {
+    margin: 2rem;
+    width: 25rem; }
+    main .sec_index .card .foto_p {
+      height: 30rem; }
+    main .sec_index .card .card-body {
+      text-align: center;
+      border: 2px dashed whitesmoke;
+      background-color: black;
+      color: whitesmoke; }
+      main .sec_index .card .card-body .btn {
+        border: black; }
+  main .sec_index .card_index {
+    transition: all; }
+    main .sec_index .card_index:hover {
+      animation-iteration-count: infinite; }
+
+main .tabla h1 {
+  text-align: center;
+  margin-bottom: 40px; }
+
+main .tabla table {
+  color: whitesmoke;
+  border: whitesmoke;
+  animation-name: fondoTabla;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@keyframes fondoTabla {
+  0% {
+    background: #833ab4;
+    background: radial-gradient(circle, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); }
+  40% {
+    background: #22c1c3;
+    background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%); }
+  60% {
+    background: #04d4fe;
+    background: radial-gradient(circle, rgba(4, 212, 254, 0.520067) 35%, rgba(120, 238, 11, 0.545277) 99%); }
+  100% {
+    background: #eeaeca;
+    background: radial-gradient(circle, #eeaeca 39%, #94bbe9 100%); } }
+
+main .divTalles {
+  padding-top: 60px; }
+  main .divTalles .h2talles {
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    border: 2px groove whitesmoke; }
+  main .divTalles .parrafo_talles {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px groove whitesmoke;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: x-large;
+    text-align: justify; }
+
+main .main_div_nos h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+main .main_div_nos .nos_parrafo1 {
+  text-align: justify;
+  padding: 5%; }
+  main .main_div_nos .nos_parrafo1 .palabras {
+    color: #C6FFDD; }
+
+main .main_div_nos .nos_div_video {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+  main .main_div_nos .nos_div_video .nos_video {
+    width: 30vw;
+    height: 70vh;
+    padding: 5% 0; }
+
+main .main_div_nos .nos_parrafo2 {
+  text-align: justify;
+  padding: 5%; }
+  main .main_div_nos .nos_parrafo2 .palabras {
+    color: #C6FFDD; }
+
+main .main_div_nos .nos_iframe {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5%; }
+
+main .main_div_nos .nos_iframe2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5%; }
+
+main .main_div_nos .animate__animated {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+main .divcontact .h2Contact {
+  margin-top: 4rem;
+  padding: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  border: 2px groove whitesmoke;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center; }
+
+main .divcontact .h3Contact {
+  color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+  padding: 3rem;
+  text-align: center; }
+
+main .form {
+  padding: 3rem;
+  position: relative; }
+  main .form .icon {
+    font-size: 20px;
+    color: red; }
+  main .form input {
+    font-size: large; }
+
+main .h2Produc {
+  margin: 0 20px;
+  padding: 30px 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  border: 2px groove whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
+
+main .seccionesP {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 2rem; }
+
+main .produc_sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  main .produc_sec .card_p {
+    padding: 2rem 0; }
+    main .produc_sec .card_p .foto_p {
+      height: 30rem; }
+    main .produc_sec .card_p .card-body {
+      text-align: center;
+      border: 2px dashed whitesmoke;
+      background-color: black;
+      color: whitesmoke; }
+    main .produc_sec .card_p .btn-success {
+      transition: all 5s; }
+    main .produc_sec .card_p .btn-success:hover {
+      transform: scale(2, 2); }
+
+main .produc_list .div2 {
+  padding: 2rem; }
+
+main .produc_list span {
+  font-size: 20px;
+  color: red; }
+
+main .produc_list input {
+  font-size: large; }
+
+main .produc_pago {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100vw; }
+  main .produc_pago .imgPago {
+    display: flex;
+    justify-content: center;
+    padding: 5% 5%;
+    width: 90vw; }
+
+footer {
+  font-family: "Oswald", sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; }
+  footer h4 {
+    padding: 20px;
+    text-align: center; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px; }
+  footer li {
+    display: inline-block; }
+    footer li a .redes {
+      width: 34px;
+      height: 35px;
+      background-color: black; }
+  footer p {
+    padding: 20px;
+    text-align: center; }
+  footer .condiciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 4rem; }
+    footer .condiciones .iconos__text i {
+      color: #C6FFDD;
+      font-family: "Oswald", sans-serif;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px; }
+    footer .condiciones .iconos__text {
+      animation-iteration-count: infinite; }
+      footer .condiciones .iconos__text p {
+        font-size: large;
+        color: #C6FFDD; }
+    footer .condiciones .fa-2x {
+      font-size: 2em; }
+  footer .redes_sociales {
+    border-top: 2px groove whitesmoke; }
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  header nav ul .nav-item {
+    font-size: medium; }
+  header nav .d-flex {
+    font-size: medium; }
+  main .mainWhat {
+    display: none; }
+  main .what {
+    position: fixed;
+    top: 30px;
+    right: 60px;
+    z-index: 10; }
+  main a .what_img {
+    width: 60px;
+    height: 60px; }
+  main .h3 {
+    font-size: medium; }
+  main .titulos {
+    font-size: medium; }
+  main .carousel .carousel-item {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 50px; }
+  main .parrafo_color {
+    font-size: medium; }
+  main .sec_index .card {
+    width: 15rem; }
+    main .sec_index .card .foto_p {
+      width: 15rem;
+      height: 20rem; }
+    main .sec_index .card .card-body {
+      font-size: medium;
+      width: 15rem; }
+      main .sec_index .card .card-body .card-title {
+        font-size: medium; }
+      main .sec_index .card .card-body .btn {
+        font-size: small; }
+  main .sec_index .card_index {
+    transition: all; }
+    main .sec_index .card_index:hover {
+      animation-iteration-count: inherit; }
+  main .tabla h1 {
+    font-size: large; }
+  main .tabla table {
+    font-size: medium; }
+  main .divTalles .h2talles {
+    font-size: medium; }
+  main .divTalles .parrafo_talles {
+    font-size: medium; }
+  main .main_div_nos h2 {
+    font-size: medium; }
+  main .main_div_nos .nos_parrafo1 {
+    font-size: medium; }
+  main .main_div_nos .nos_parrafo2 {
+    font-size: medium; }
+  main .main_div_nos .nos_div_video .nos_video {
+    width: 40vw;
+    height: 50vh;
+    padding: 5% 0; }
+  main .main_div_nos .nos_iframe {
+    display: none; }
+  main .divcontact .h2Contact {
+    font-size: medium; }
+  main .divcontact .h3Contact {
+    font-size: medium;
+    text-align: center; }
+  main .form {
+    font-size: medium; }
+    main .form ::-webkit-input-placeholder {
+      font-size: medium; }
+    main .form :-moz-placeholder {
+      /* Firefox 18- */
+      font-size: medium; }
+    main .form ::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: medium; }
+    main .form :-ms-input-placeholder {
+      font-size: medium; }
+    main .form input {
+      font-size: medium; }
+  main .h2Produc {
+    font-size: large; }
+  main .produc_sec .card_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .produc_sec .card_p .foto_p {
+      width: 15rem;
+      height: 20rem; }
+    main .produc_sec .card_p .card-body {
+      font-size: medium;
+      width: 15rem; }
+      main .produc_sec .card_p .card-body .card-title {
+        font-size: medium; }
+      main .produc_sec .card_p .card-body .btn {
+        font-size: small; }
+      main .produc_sec .card_p .card-body .btn-success {
+        transition: none; }
+      main .produc_sec .card_p .card-body .btn-success:hover {
+        transform: none; }
+  main .produc_pago .imgPago {
+    display: none; }
+  main .produc_pago .imgPago2 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  main .produc_pago .img2 {
+    width: 20rem;
+    height: 20rem; }
+  footer h4 {
+    font-size: medium; }
+  footer p {
+    font-size: medium; }
+  footer .condiciones {
+    animation-iteration-count: inherit;
+    padding-right: 3rem; }
+    footer .condiciones .iconos__text {
+      animation-iteration-count: inherit; }
+      footer .condiciones .iconos__text p {
+        font-size: medium; } }
+
+/* MOBIL */
+@media screen and (max-width: 425px) {
+  header .lg {
+    background-color: black; }
+  header .logo_pag {
+    width: 90vw;
+    height: auto; }
+  header .header_div_video {
+    display: none; }
+  header nav a .logo_nav {
+    width: 40px;
+    height: 30px; }
+  header nav ul .nav-item {
+    font-size: small; }
+  header nav .d-flex {
+    font-size: small; }
+  .main_index {
+    background-image: url(../Imagenes/fotos/mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+  main a .what_img {
+    width: 30px;
+    height: 30px; }
+  main .h3 {
+    font-size: small; }
+  main .carousel .carousel-item {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 50px; }
+  main .titulos {
+    font-size: small; }
+  main .parrafo_color {
+    font-size: small; }
+  main .sec_index .card {
+    width: 15rem; }
+    main .sec_index .card .foto_p {
+      height: 18rem; }
+    main .sec_index .card .card-body {
+      font-size: small;
+      width: 15rem; }
+      main .sec_index .card .card-body .card-title {
+        font-size: small; }
+      main .sec_index .card .card-body .btn {
+        font-size: small; }
+  main .sec_index .card_index:hover {
+    transform: inherit; }
+  main .tabla h1 {
+    font-size: medium; }
+  main .tabla table {
+    font-size: small; }
+  main .divTalles .h2talles {
+    font-size: small; }
+  main .divTalles .parrafo_talles {
+    font-size: small; }
+  main .main_div_nos h2 {
+    font-size: small; }
+  main .main_div_nos .nos_parrafo1 {
+    font-size: small; }
+  main .main_div_nos .nos_parrafo2 {
+    font-size: small; }
+  main .main_div_nos .nos_div_video .nos_video {
+    width: 40vw;
+    height: 50vh;
+    padding: 5% 0; }
+  main .main_div_nos .nos_iframe {
+    display: none; }
+  main .h2Contact {
+    font-size: small; }
+  main .h3Contact {
+    font-size: small;
+    text-align: center; }
+  main .form {
+    font-size: small; }
+    main .form ::-webkit-input-placeholder {
+      font-size: small; }
+    main .form :-moz-placeholder {
+      /* Firefox 18- */
+      font-size: small; }
+    main .form ::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: small; }
+    main .form :-ms-input-placeholder {
+      font-size: small; }
+    main .form input {
+      font-size: small; }
+  main .h2Produc {
+    font-size: medium;
+    padding: 20px; }
+  main .produc_sec .card_p {
+    width: 15rem; }
+    main .produc_sec .card_p .foto_p {
+      height: 18rem; }
+    main .produc_sec .card_p .card-body {
+      font-size: small;
+      width: 15rem; }
+      main .produc_sec .card_p .card-body .card-title {
+        font-size: small; }
+      main .produc_sec .card_p .card-body .btn {
+        font-size: small; }
+      main .produc_sec .card_p .card-body .btn-success:hover {
+        transform: inherit; }
+  main .produc_pago .imgPago {
+    display: none; }
+  main .produc_pago .imgPago2 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  footer h4 {
+    font-size: small; }
+  footer p {
+    font-size: small; }
+  footer .condiciones {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding-right: 0rem; }
+    footer .condiciones .iconos__text {
+      animation-iteration-count: inherit; }
+      footer .condiciones .iconos__text p {
+        font-size: small; }
+    footer .condiciones .fa-2x {
+      font-size: 1,5em; } }
+
+@media screen and (min-width: 426px) {
+  header .lg {
+    display: none; } }
+
+/* DESKTOP */
+@media screen and (min-width: 769px) {
+  main .what {
+    display: none; }
+  main .maindiv_index2 {
+    display: none; }
+  main .main_div_nos .nos_iframe2 {
+    display: none; }
+  main .produc_pago .imgPago2 {
+    display: none; } }

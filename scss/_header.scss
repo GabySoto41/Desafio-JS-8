@@ -1,0 +1,71 @@
+
+header{
+
+    background-color: $colorFondo;
+
+    .header_div_video{
+
+        @include sizes(100vw,50vh);
+        display: flex;
+        justify-content: center;
+        background-color: $colorFondo;
+    }
+
+    .header_video{
+
+        @include sizes(99vw,50vh)
+    }
+
+    .paginas{
+
+        display: flex;
+        justify-content: center;
+    }
+           
+    .logo_pag{
+    
+        @include sizes(90vw,auto);
+    }
+    
+    .navbar{
+        
+        border: $borde;
+
+        form .btn-outline-success{
+
+            
+            color: #C6FFDD;
+        }
+    }
+
+    nav{
+    
+        a{
+            .logo_nav{  
+                
+                @include sizes(80px,60px);
+            }
+        }
+    
+        .navbar-nav{
+            padding:0 10px;
+        }
+
+        ul{
+            .nav-item{
+                font-family: $letra;
+                font-size: large;
+                padding: 10px;
+                margin:0 40px;
+            }   
+        }
+
+        .d-flex{
+            font-family: $letra;
+            font-size: large;
+        }
+    } 
+    
+}
+
+   
